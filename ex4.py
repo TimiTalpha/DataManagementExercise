@@ -16,8 +16,8 @@ def main():
     print('Round {}, {}'.format(i+1, value))
 
   print('Heads: {}, Tails: {}'.format(cnt_h, cnt_t))
-  result = 'You won' if cnt_h > cnt_t else 'You lost'
-  print(result)
+  result = 'won!' if cnt_h > cnt_t else 'lost!'
+  print(name + " " + result)
   return
 
 

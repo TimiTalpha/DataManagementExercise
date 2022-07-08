@@ -3,6 +3,9 @@ import random
 def main():
   cnt_h = 0
   cnt_t = 0
+  
+  name = raw_input('Who are you?\n')
+  print('Hello, {}!'.format(name))
 
   print('Tossing a coin...')
   for i in range(3):
@@ -20,3 +23,5 @@ def main():
 
 if __name__ == '__main__':
   main()
+Footer
+© 2022 GitHub, Inc.
